@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7) ),url(https://4kwallpapers.com/images/wallpapers/wwdc-2023-apple-8000x4500-11563.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;   
+        }
+        form{
+            width: 600px;
+            height: 600px;
+            border-radius: 20px;
+            box-shadow: -3px 2px 5px blue;
+            position:relative;
+            top: 25px;
+        }
+        table{
+            height: 600px;
+        }
+        th{
+            font-size: 30px;
+            color: white;
+        }
+        #nam,#num,#adhar,#pan,#sel,#passwd,#add
+        {
+            border:3px solid white;
+            background:transparent;
+            padding: 10px;
+            width:100%;
+            border-radius: 10px;
+            text-align:center;
+            font-weight:bold;
+            outline:white ;
+            box-shadow: 3px 2px 5px blue;
+            color: white;
+            
+
+        }
+        sup{
+            color: red;
+        }
+        #sel{
+            color: white;
+            background-color: black;
+        }
+        td{
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        #sub{
+            padding: 8px;
+            width: 100px;
+            border-radius: 20px;
+            border: 1px solid white;
+            background-image:linear-gradient(1deg,blue,black);
+            color: white;
+            position: relative;
+            left: 70%;
+
+            
+
+        }
+        #sub:hover{
+            
+            background-image:linear-gradient(red,black);
+            font-weight: bold;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <center>
+    <form action="">
+        <table>
+            <tr>
+                <th colspan="3">Registration Form</th>
+            </tr>
+            <tr>
+                <td>Enter User Name<sup>*</sup></td>
+                <td>:</td>
+                <td><input type="text" placeholder="name" id="nam" ></td>
+            </tr>
+            <tr>
+                <td>Enter Mobile Number<sup>*</sup></td>
+                <td>:</td>
+                <td><input type="number" placeholder="number" id="num" ></td>
+            </tr>
+            <tr>
+                <td>Enter Aadhar Number<sup>*</sup></td>
+                <td>:</td>
+                <td><input type="number" placeholder="Aadhar" id="adhar" ></td>
+            </tr>
+            <tr>
+                <td>Enter PAN</td>
+                <td>:</td>
+                <td><input type="text" placeholder="PAN" id="pan" ></td>
+            </tr>
+            <tr>
+                <td>Enter Address<sup>*</sup></td>
+                <td>:</td>
+                <td><textarea  id="add" cols="20" rows="1" placeholder="Address" \></textarea></td>
+            </tr>
+            <tr>
+                <td>Register As<sup>*</sup></td>
+                <td>:</td>
+                <td><select  id="sel">
+                    <option>-SELECT-</option>
+                    <option value="">Student</option>
+                    <option value="">Employee</option>
+                    <option value="">Experienced</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>Set new password<sup>*</sup></td>
+                <td>:</td>
+                <td><input type="password" placeholder="password" id="passwd"></td>
+            </tr>
+            <tr>
+                
+                <td colspan="2"><input type="submit" id="sub"></td>
+                
+            </tr>
+        </table>
+    </form>
+    </center><br><br><br>
+</body>
+</html>

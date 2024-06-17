@@ -1,0 +1,29 @@
+#d1{
+    width: 300px;
+    height: 300px;
+    border-width: 20px;
+    border-color: crimson;
+    border-style: solid;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+input{
+    width: 300px;
+    height: 200px;
+    border-left-style: dotted;
+    border-left-width: 10px;
+    border-right-style:dashed ;
+    border-top-style: double;
+}
+#d2{
+    display: inline-block;
+    position: absolute;
+    top:10px;
+    width: 300px;
+    height: 300px;
+    border-width: 20px;
+    border-color: crimson;
+    border-style: dashed;
+    padding: 10px;
+
+}

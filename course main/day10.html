@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: limegreen;
+            padding: 10px;
+            border: 2px solid black;
+            font-weight: bold;
+            width: 100px;
+
+        }
+        button:hover{
+            background-color: green;
+        }
+        div{
+            background-color: black;
+            width: 200px;
+            height: 200px;
+            font-size: 20px;
+            padding: 50px;
+            
+        }
+        #d1{
+            color: white;
+            
+        }
+        div:active #d2{
+            color:blue
+        }
+        div:active{
+            box-shadow: 0px 0px 10px red;
+        }
+        #i1,#i2{
+            padding: 10px;
+
+        }
+        #i1:focus{
+            background-image: linear-gradient(red,green,blue);
+        }
+        #i2:focus{
+            background-image: radial-gradient(red,blue);
+            width: 200px;
+            height: 50px;
+        }
+        #t3{
+            background-color:blue;
+            height: 100px;
+            font-size: 40px;
+            color: white;
+            padding: 20px;
+            transition-duration:1s;
+
+        }
+        #t3:hover{
+            width:500px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <button>active</button><br><br><br>
+    <div>
+        <p id="d1">hello</p>
+        <p id="d2">hii</p>
+    </div><br><br><br><br>
+    <input type="text" id="i1">
+    <input type="text" id="i2">
+    
+    </center>
+    <div id="t3">
+        hello
+    </div>
+</body>
+</html>
